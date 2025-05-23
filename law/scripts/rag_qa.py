@@ -3,7 +3,6 @@ import faiss
 import json
 import openai
 from scripts.embed_text import embed_text  # 你自己定義好的 embedding 函數
-from scripts.embed_text import embed_text
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
